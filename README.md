@@ -91,9 +91,9 @@ Durante el desarrollo de este taller usamos herramientas de inteligencia artific
 
 #### 1. Entendimiento y preparación de datos
 
-- _Tengo un dataset de churn bancario con estas columnas: [pegar df.info() y df.head()]. ¿Qué tipo de variable es cada una (numérica continua, discreta, categórica nominal u ordinal) y cuáles debería descartar, como IDs o apellidos?_
+- _Tengo un dataset de churn bancario con estas columnas:.... ¿Qué tipo de variable es cada una (numérica continua, discreta, categórica nominal u ordinal) y cuáles debería descartar, como IDs o apellidos?_
 - _Escribe código en Python con pandas y seaborn para graficar la distribución de las variables numéricas, separadas por la variable objetivo Exited._
-- _Interpreta estas estadísticas descriptivas y dime qué indicadores vale la pena destacar en un reporte de entendimiento de datos: [pegar describe()]._
+- _Interpreta estas estadísticas descriptivas y dime qué indicadores vale la pena destacar en un reporte de entendimiento de datos:..._
 - _La tasa de churn de mi dataset es del 20,4 %. ¿Esto se considera desbalance? ¿Qué implica para el modelado y para las métricas?_
 - _¿Cómo reviso faltantes, duplicados y outliers en este dataset? Dame el código y explícame cómo decidir qué hacer con cada caso._
 
@@ -103,12 +103,12 @@ Durante el desarrollo de este taller usamos herramientas de inteligencia artific
 - _¿Cómo hago una división train/validation/test estratificada y la documento correctamente en un notebook?_
 - _Quiero comparar una regresión logística, un Random Forest y un XGBoost. ¿Qué hiperparámetros conviene explorar en cada uno con GridSearchCV o RandomizedSearchCV, y en qué rangos?_
 - _¿Debo usar class_weight, SMOTE o ajustar el umbral para el desbalance? Explícame las ventajas y desventajas de cada opción._
-- _Me sale este error al ejecutar el GridSearch: [pegar traceback]. ¿Qué está pasando?_
+- _Me sale este error al ejecutar el GridSearch: ... ¿Qué está pasando?_
 
 #### 3. Análisis cuantitativo
 
 - _Explícame en términos de negocio qué significan precision, recall, F1 y AUC-ROC en un problema de retención de clientes._
-- _Estos son mis resultados para los tres modelos: [pegar tabla]. Ayúdame a justificar cuál elegir, considerando que un falso negativo es un cliente perdido y un falso positivo es una oferta pagada de más._
+- _Estos son mis resultados para los tres modelos: ... Ayúdame a justificar cuál elegir, considerando que un falso negativo es un cliente perdido y un falso positivo es una oferta pagada de más._
 - _¿Cómo grafico la matriz de confusión, la curva ROC y la curva precision-recall de los modelos comparados?_
 - _¿Cómo elijo el umbral de clasificación óptimo cuando los costos de FP y FN son distintos?_
 - _Revisa mi análisis de métricas y sugiéreme oportunidades de mejora del modelo: ..._
@@ -116,7 +116,7 @@ Durante el desarrollo de este taller usamos herramientas de inteligencia artific
 #### 4. Análisis cualitativo / interpretabilidad
 
 - _¿Cómo uso SHAP con un modelo XGBoost dentro de un pipeline de sklearn? Dame código para el summary plot y para waterfall plots individuales._
-- _Interpreta este gráfico SHAP global: [describir o pegar]. ¿Qué nos dice sobre Age, NumOfProducts e IsActiveMember?_
+- _Interpreta este gráfico SHAP global: ... ¿Qué nos dice sobre Age, NumOfProducts e IsActiveMember?_
 - _Elegí cuatro clientes: un verdadero positivo, un falso positivo, un falso negativo y un verdadero negativo. Ayúdame a explicar por qué el modelo predijo lo que predijo en cada caso a partir de sus valores SHAP._
 - _¿Qué diferencia hay entre feature importance por impureza, permutation importance y SHAP? ¿Cuál es más confiable?_
 
