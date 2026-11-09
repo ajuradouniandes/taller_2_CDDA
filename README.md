@@ -3,6 +3,7 @@
 **MINE-4101 Ciencia de Datos Aplicada · Universidad de los Andes · 2026-20**
 
 **Integrantes:** Mateo Jurado · Iván Herrera
+
 Prueba de concepto de una herramienta de predicción de abandono temprano de clientes bancarios para campañas de retención. Se entrenan y comparan una **regresión logística regularizada** y un **árbol de decisión**, y se interpretan con coeficientes, reglas del árbol, SHAP, LIME e ICE.
 
 ## Resultados principales
@@ -30,8 +31,9 @@ taller_2/
 ├── notebooks/
 │   ├── 01_entendimiento_preparacion.ipynb # Entregable 1
 │   ├── 02_modelado_interpretacion.ipynb   # Entregables 2, 3 y 4
-│   └── 03_generacion_valor.ipynb          # Entregables 5 y 6
+│   └── 03_generacion_valor.ipynb          # Entregables 5 y 6 (sección 8)
 └── reports/
+    ├── informe_ejecutivo.md               # Entregable 6: informe para la gerencia
     ├── figures/                           # figuras exportadas por los notebooks
     └── resumen_valor.csv                  #   03 → indicadores clave de valor
 ```
@@ -43,7 +45,7 @@ taller_2/
 | 3. Análisis cuantitativo | 20 % | [02_modelado_interpretacion.ipynb](notebooks/02_modelado_interpretacion.ipynb), secciones 5–7 |
 | 4. Análisis cualitativo (interpretación) | 20 % | [02_modelado_interpretacion.ipynb](notebooks/02_modelado_interpretacion.ipynb), secciones 8–10 |
 | 5. Generación de valor | 20 % | [03_generacion_valor.ipynb](notebooks/03_generacion_valor.ipynb), secciones 1–7 |
-| 6. Insights | 10 % | [03_generacion_valor.ipynb](notebooks/03_generacion_valor.ipynb), sección 8 |
+| 6. Insights | 10 % | [Informe ejecutivo](reports/informe_ejecutivo.md) · [03_generacion_valor.ipynb](notebooks/03_generacion_valor.ipynb), sección 8 |
 | 7. Declaración de uso de IA generativa | 5 % | [Al final de este README](#declaración-de-uso-de-ia-generativa) |
 
 ## Cómo ejecutar
